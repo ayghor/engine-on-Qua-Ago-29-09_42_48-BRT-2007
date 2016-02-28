@@ -54,11 +54,11 @@ inline void r_render_polygon(const polygon_t* poly)
 {
 	if(lmaterial != poly->material)
 	{
-		glMaterialfv(GL_FRONT, GL_AMBIENT, poly->material->ambient_color);
-		glMaterialfv(GL_FRONT, GL_DIFFUSE, poly->material->diffuse_color);
-		glMaterialfv(GL_FRONT, GL_SPECULAR, poly->material->specular_color);
-		glMaterialf(GL_FRONT, GL_SHININESS, poly->material->shininess);
-		glMaterialfv(GL_FRONT, GL_EMISSION, poly->material->emission_color);
+		//glMaterialfv(GL_FRONT, GL_AMBIENT, poly->material->ambient_color);
+		//glMaterialfv(GL_FRONT, GL_DIFFUSE, poly->material->diffuse_color);
+		//glMaterialfv(GL_FRONT, GL_SPECULAR, poly->material->specular_color);
+		//glMaterialf(GL_FRONT, GL_SHININESS, poly->material->shininess);
+		//glMaterialfv(GL_FRONT, GL_EMISSION, poly->material->emission_color);
 		lmaterial = poly->material;
 	}
 

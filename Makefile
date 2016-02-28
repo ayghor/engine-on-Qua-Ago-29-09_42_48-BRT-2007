@@ -17,7 +17,7 @@ LDFLAGS =
 # Configurações finais do compilador
 #
 BUILD_CC =		$(CC)
-BUILD_CFLAGS =		-std=c99 -pedantic -fPIC -I$(CURDIR) $(CFLAGS)
+BUILD_CFLAGS =		-Dinline='' -ggdb -std=c99 -pedantic -fPIC -I$(CURDIR) $(CFLAGS)
 BUILD_LDFLAGS =		$(LDFLAGS)
 ##
 
